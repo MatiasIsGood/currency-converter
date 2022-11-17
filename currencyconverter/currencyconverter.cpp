@@ -42,7 +42,6 @@ int main()
 
 
 
-
     if (ekavaluutta == 1) {     //euro 
         if (muunnettuvaluutta == 1) {
             std::cout << "siitähän tulee vaan sama";
