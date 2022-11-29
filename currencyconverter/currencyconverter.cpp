@@ -55,7 +55,7 @@ int main()
         }
     }
 
-    if (ekavaluutta == 2) {     //dollari
+    else if (ekavaluutta == 2) {     //dollari
         if (muunnettuvaluutta == 1) {  
             std::cout << luku * dollarieuro << " dollaria";
         }
@@ -68,7 +68,7 @@ int main()
         }
     }
 
-    if (ekavaluutta == 3) {         //punta
+    else if (ekavaluutta == 3) {         //punta
         if (muunnettuvaluutta == 1) {
             std::cout << luku * puntaeuro << " puntaa";
         }
